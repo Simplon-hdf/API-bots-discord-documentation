@@ -30,11 +30,7 @@
 - R.G 25: Les apprenants sélectionnés sont notifiés par message privé.
 # Journalisation
 - R.G 26: Le bot enregistre chaque fois qu'un utilisateur fait appel à lui dans un journal.
-- R.G 27: Le journal écrit les informations de la manière suivante : 
-    - À quelle date a été lancée la commande. 
-    - Quel utilisateur a lancé la commande. 
-    - Quelle commande a été utilisée. 
-    - À quel utilisateur la commande est-elle destinée.
+- R.G 27: Le journal écrit les informations de la manière suivante: date, émetteur, action, destinataire.
 # Structuration de l'organisation
 - R.G 28: Un formateur est lié à une ou plusieurs promotions.
 - R.G 29: Une promotion est liée à un ou plusieurs formateurs.
