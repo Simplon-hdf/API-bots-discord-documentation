@@ -26,6 +26,8 @@ Dans un marché ultra-concurrentiel, la réputation est un levier crucial pour S
 
 Pour garantir cette réputation, Simplon doit s’assurer de recruter des formateurs compétents et expérimentés, capables de transmettre efficacement les compétences recherchées par le marché du travail. Un autre aspect important est le maintien de relations solides avec ses partenaires financiers (régions, OPCO, entreprises), qui permettent de financer les formations pour les apprenants.
 
+L’amélioration continue est cruciale pour Simplon afin de garantir la qualité et la réputation de ses formations. En adaptant régulièrement ses contenus et méthodes pédagogiques aux évolutions du marché et aux retours des apprenants, Simplon s’assure de former des profils en phase avec les compétences recherchées. Cette démarche proactive renforce la satisfaction des financeurs et des partenaires, tout en valorisant les anciens étudiants qui deviennent des ambassadeurs de l’école.
+
 ## Enjeux autour de Discord
 
 ### Optimiser la gestion des outils numériques pour la formation
