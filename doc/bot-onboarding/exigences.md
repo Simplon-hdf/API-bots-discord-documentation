@@ -10,12 +10,13 @@
 - Le bot doit permettre à un admin , un CDP et un directeur de paramétrer et pré-enregistrer un post.
 - Le bot doit permettre à un admin, un CDP et un directeur de sélectionner un channel dans une liste déroulante des channels pré-enregistrés.
 - Le bot doit permettre à un admin, un CDP et un directeur de sélectionner un post dans une liste déroulante des posts pré-enregistrés.
-- Le bot doit permettre à un formateur de créer un channel vocal temporaire.
+- Le bot doit permettre de créer un channel vocal temporaire.
 - Le bot doit permettre aux nouveaux arrivants ayant accepté le règlement de s'identifier.
 - Le bot doit permettre aux admins, un CDP et un directeur d'accepter ou refuser les demandes d'identifications.
 - Le bot doit permettre aux apprenants de savoir si leur demande d'identification a été acceptée.
 - Le bot doit permettre à l'admin, un CDP et un directeur de masquer ou non les promos pour lui.
 - Le bot doit permettre aux nouveaux arrivants d'avoir accès aux diffèrents channels.
+-Le bot doit permettre l'archivage d'une promotion au bout de 1 mois après la fin de la session.
 
 ## Exigences non fonctionnelles
 
