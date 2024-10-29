@@ -1,26 +1,26 @@
-1. Concernant le fait de faire lire les règles du serveur aux nouveaux arrivants, préféreriez-vous :
+
+1) Concernant le fait de faire lire les règles du serveur aux nouveaux arrivants, préféreriez-vous :
 
 - J'ai lu et j'accepte les règles du serveur
 - J'ai pris connaissance des règles du serveur
 
-2. On a entendu dire que le terme de fabrique serait sans doute remplacé par celui de campus, quel terme doit-on utiliser dans la documentation ?
+2) On a entendu dire que le terme de fabrique serait sans doute remplacé par celui de campus, quel terme doit-on utiliser dans la documentation ?
 
-3. Combien de formation avez-vous en moyenne en parallèle ?
+3) Est-ce qu'à l'avenir le bot va devoir gérer un autre serveur que Simplon HDF, ex: Simplon IDF ?
 
-4. Combien de channels fixes existe t'il sur le discord des hauts-de-France? Par exemple il existe la formation CDA qui possède 4 channels en continu et 6 forums. A l'avenir à la création d'une promotion y'aura t-il autre chose que des channels vocaux ?
+4) Lors de la création d'une promotion, voulez vous donner la possibilité de définir une date de début et de fin pour sa validité ?
 
-5. Est-ce qu'à l'avenir le bot va devoir gérer un autre serveur que Simplon HDF, ex: Simplon IDF ?
+5) Dans le schéma discord par rôle fourni par Claire, on remarque l'existence des rôles "admins" et "administrateur" ? Pour éviter la confusion ne serait-il pas mieux de parler de "administration" et "administrateur" ?
 
-6. A la création d'une promotion, la possibilité de mettre une date de début et une date de fin pour définir sa période de validité ? Possibilité d'enlevé la période de validité.
+6) Accordons-nous le droit à un formateur de créer des posts ? Avec une limite ?
 
-7. Dans le schéma discord par rôle fourni par Claire, on remarque l'existence des rôles "admins" et "administrateur" ? Pour éviter la confusion ne serait-il pas mieux de parler de "administration" et "administrateur" ?
+7) Concernant les demandes d'identifications, est-ce que tu accepterais un message supplémentaire ?
 
-8. Accordons-nous le droit à un formateur de créer des posts ? Avec une limite ?
+8) Pour le formulaire d'identification, souhaitez-vous que l'apprenant puisse sélectionner directement sa formation et sa promotion afin d'automatiser au maximum le processus ?
 
-9. Concernant les demandes d'identifications, est-ce que tu accepterais un message supplémentaire ?
+9) Serait-il possible d'obtenir une copie du serveur Simplon HDF pour effectuer des tests ?
 
-10. Concernant le formulaire d'identification, est-ce que tu voudrais que l'apprenant puisse directement choisir sa formation et sa promo pour automatiser le processus au maximum ?
+10) Pouvez vous nous confirmer que la suppression d'une formation entraîne également la suppression des promotions associées (en cascade) ?
 
-11. Avoir une copie du serveur Simplon HDF. 
+11) Combien de formation avez-vous en moyenne en parallèle ?
 
-12. Confirmation de suppression des promotions lors de la suppression d'une formation (cascade).
