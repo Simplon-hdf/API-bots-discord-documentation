@@ -30,14 +30,14 @@ Durant notre rendez-vous, nous avons discuté des points suivants :
 
 Nous avons également validé les éléments suivants pour le développement du bot:
 - Les nouveaux arrivant devront cocher sur "J'ai lu et j'accepte les règles du serveur" lors de la lecture des règles du serveur.
-- "Fabrique" devient "campus" dès maintenant, un terme à modifier dès à présent, les apprenants changent également de nom (?).
+- "Fabrique" devient "campus" dès maintenant, un terme à modifier dès à présent. De même les apprenants changeront également de nom mai nous ne savons pas encore lequel. ("Étudiants" il me semble non?)
 - Le bot discord sera conçu en prennant en compte sa scalabilité.
-- Lors de la création d'une promotion, y ajouter sa date de début et de fin. La formation devra apparaitre automatiquement au moment de sa date de début.
+- Lors de la création d'une promotion, y ajouter sa date de début et de fin. La promotion devra apparaître automatiquement au moment de sa date de début.
 - Collaborer avec le bot feedback qui paramètrera une annonce une semaine avant la fin de la promotion pour signaler que le serveur va fermer un mois après la fin de la formation.
 - Il n'y aura pas de changement pour le terme "admins" et "administrateur"
 - Un formateur pourra créer de nouveau posts, mais ce droit sera limité en quantité
-- Aucun champ texte libre ne sera prévu lors de l'identification pour faciliter l'automatisation du processus, ce sera plutot des cases à cocher?
-(pas sûr si validé ni si réponse exacte)- Pour la gestion des identification, Le chargé de projet pourra envoyer un email d'invitation discord à ses apprenants. Les apprenants seront ainsi automatiquement identifiés sélectionneront eux-même lors de l'identification la formation dans laquelle ils ont été accepté.
+- Pour la gestion des identification, le chargé de projet pourra envoyer un email d'invitation discord à ses apprenants, ils seront ainsi automatiquement identifiés. Ensuite, les apprenants pourront sélectionner leur formation et leur promotion; de fait, les admins / CDP n'auront plus qu'à vérifier et à valider.
+- Aucun champ texte libre ne sera prévu lors de l'identification pour faciliter l'automatisation du processus.
 - Du fait de l'architecture que devrait avoir le back-end, la suppression d'une formation entrainera forcément la suppression de sa formation associée
 
 
@@ -45,19 +45,17 @@ Je vous confirme que nous avons bien pris en compte les remarques suivantes :
 - La version V1 n'avait pas de scalabilité.
 - Pour le moment aucun déploiement n'est prévu dans d'autre région, chaque région ayant ses propres règles de fonctionnement vis à vis du discord. Mais comme c'est une suite possible, le bot doit être développé de façon à ce qu'il ait une scalabilité au cas où le cas se présente.
 - Ce sont les chargés de projet qui créent leurs promos sur discord.
-- Il n'y a pas de champ date prévu dans Discord, il faut donc improviser avec un champ texte classique pour gérer les dates.
-- La limite de nombre de posts que le formateur pourra créer n'a pas encore été définie
+- Il n'y a pas de champ de date prévu dans Discord, il faudra donc utiliser un champ de texte classique pour gérer les dates.
+- La limite de nombre de posts que le formateur pourra créer n'a pas encore été définie.
 - Claire apprécierait le fait d'avoir un pop up lui indiquant lorsqu'un apprenant d'une de ses formations souhaite rejoindre le discord.
-- Un modèle de stock de forum serait préférable aux stock de channels
-- plutot que d'avoir la version alternance et la version distantielle d'une formation comme deux entités séparées, préférer conserver une version de template dont il sera possible d'ajouter d'avoir un même template plus fourni en terme de posts en cochant une case "distantiel"
-- L'antenne de Valenciennes compte à elle seule en ce moment 5 formations dont 2 en sourcing. Compter qu'il y a également les antennes de Béthune, Lille, Boulogn-sur-Mer et possiblement Douai et Arras qui devrait s'ajouter prochainement. Ce nombre sera pris en compte dans la gestion des channels.
+- Un modèle de stock de forum serait préférable aux stock de channels.
+- Plutôt que d'avoir la version présentielle et la version distantielle d'une formation comme deux entités séparées, il sera préférable de créer un template auquel on pourra aposer des ajustements pour le distantiel en cochant une case. Cela permettra d'éviter une redondance de données.
+- En ce moment, l'antenne de Valenciennes compte à elle seule 5 formations dont 2 en sourcing. Compter qu'il y a également les antennes de Béthune, Lille, Boulogn-sur-Mer et possiblement Douai et Arras qui devrait s'ajouter prochainement. Ce nombre sera pris en compte dans la gestion des channels.
 - Les forums sont inclus dans la limitation en quantité des channels.
-
 
 Pour rappel, lors de cet entretien, vous avez convenu de :
 - Nous envoyer le lien du serveur template si vous avez le temps de le paramétrer
 - Des accès à certaines parties du serveur seront données aux deux tech leads
-
 
 Si vous avez des réserves sur un des points évoqués plus haut, d'autres éléments à ajouter ou des sujets que vous souhaiteriez aborder lors de nos prochains échanges; n’hésitez pas à nous en faire part. Nous sommes très heureux de collaborer avec vous et sommes enthousiastes à l'idée d'avancer ensemble sur les prochaines phases du projet.
 
