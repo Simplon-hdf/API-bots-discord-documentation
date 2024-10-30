@@ -10,10 +10,10 @@ Vos réponses, idées et suggestions ont été extrêmement enrichissantes pour 
 
 Durant notre rendez-vous, nous avons discuté des points suivants :
 - Le message des règles d'utilisation que le nouvel arrivant devra accepter.
-- Le terme de fabrique
+- Le terme de fabrique et son possible changement.
 - La possibilité que le projet soit également déployé dans des antennes Simplon d'autres régions.
 - La possibilité de définir une date de début et de fin de validité d'une promotion lors de sa création dans Discord
--La possibilité de renommer les rôles "admins" et "administrateur"
+- La possibilité de renommer les rôles "admins" et "administrateur"
 - Le droit futur donné à un formateur de créer de nouveaux posts et sa limite en terme de nombre.
 - La possibilité d'ajouter un champs texte libre pour les nouveaux arrivants lors de leur demande d'identification
 - L'automatisation possible du formulaire d'identification en permettant à l'apprenant de sélectionner directement sa formation et sa promotion.
@@ -23,14 +23,16 @@ Durant notre rendez-vous, nous avons discuté des points suivants :
 - La présentation d'un premier schémas que nous avons établi pour nous assurer que nous avons bien compris le flux de création d'une nouvelle promotion ainsi qu'un second présentant une amélioration possible de ce flux. 
 
 À l'issue de notre discussion, nous avons convenu des actions suivantes :
--
+- L'amélioration de notre flux de création de formation suites aux différentes remarques concernant son fonctionnement et les améliorations possibles.
+- Le début de travail des diagrammes Merise liés au projet
+- Collaborer avec le bot feedback qui paramètrera une annonce une semaine avant la fin de la promotion pour signaler que le serveur va fermer un mois après la fin de la formation.
 
 
 Nous avons également validé les éléments suivants pour le développement du bot:
 - Les nouveaux arrivant devront cocher sur "J'ai lu et j'accepte les règles du serveur" lors de la lecture des règles du serveur.
 - "Fabrique" devient "campus" dès maintenant, un terme à modifier dès à présent, les apprenants changent également de nom (?).
-- Un bot discord conçu en prennant en compte sa scalabilité
-- Lors de la création d'une promotion, y ajouter sa date de début et de fin. La formation devra apparaitre lors de sa date de début.
+- Le bot discord sera conçu en prennant en compte sa scalabilité.
+- Lors de la création d'une promotion, y ajouter sa date de début et de fin. La formation devra apparaitre automatiquement au moment de sa date de début.
 - Collaborer avec le bot feedback qui paramètrera une annonce une semaine avant la fin de la promotion pour signaler que le serveur va fermer un mois après la fin de la formation.
 - Il n'y aura pas de changement pour le terme "admins" et "administrateur"
 - Un formateur pourra créer de nouveau posts, mais ce droit sera limité en quantité
@@ -38,14 +40,11 @@ Nous avons également validé les éléments suivants pour le développement du 
 (pas sûr si validé ni si réponse exacte)- Pour la gestion des identification, Le chargé de projet pourra envoyer un email d'invitation discord à ses apprenants. Les apprenants seront ainsi automatiquement identifiés sélectionneront eux-même lors de l'identification la formation dans laquelle ils ont été accepté.
 - Du fait de l'architecture que devrait avoir le back-end, la suppression d'une formation entrainera forcément la suppression de sa formation associée
 
-Comme convenu, les prochaines étapes seront les suivantes :
-- L'amélioration de notre flux de création de formation suites aux différentes remarques concernant son fonctionnement et les améliorations possibles.
-- Le début de travail des diagrammes Merise liés au projet
 
 Je vous confirme que nous avons bien pris en compte les remarques suivantes :
 - La version V1 n'avait pas de scalabilité.
 - Pour le moment aucun déploiement n'est prévu dans d'autre région, chaque région ayant ses propres règles de fonctionnement vis à vis du discord. Mais comme c'est une suite possible, le bot doit être développé de façon à ce qu'il ait une scalabilité au cas où le cas se présente.
-- Ce sont les chargé de projet qui créent leur promos sur discord.
+- Ce sont les chargés de projet qui créent leurs promos sur discord.
 - Il n'y a pas de champ date prévu dans Discord, il faut donc improviser avec un champ texte classique pour gérer les dates.
 - La limite de nombre de posts que le formateur pourra créer n'a pas encore été définie
 - Claire apprécierait le fait d'avoir un pop up lui indiquant lorsqu'un apprenant d'une de ses formations souhaite rejoindre le discord.
