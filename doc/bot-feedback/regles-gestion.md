@@ -24,7 +24,7 @@ Du fait que les apprenants ne peuvent pas créer de sondage, ils pourront se rap
 
 **RG08** - Le créateur du sondage peut ajouter un message à afficher lors de l'envoi du sondage
 
-**RG09** - La création d'un sondage est déclenchée par une commande *(à voir pour faire mieux plus tard)*
+**RG09** - La création du sondage est déclanchée par un bouton
 
 **RG10** - Lors de sa création, le sondage peut-être basé sur un modèle prédéfini
 
